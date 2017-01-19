@@ -1,0 +1,4 @@
+services:
+  lendolsi.service.internal_token:
+        class: lendolsi\InternalTokenValidatorBundle\Services\TokenService
+        arguments: ['@service_container']
